@@ -1,5 +1,8 @@
 from data_platform.data_lake.base import BaseDataLakeBucket, DataLakeLayer
 from aws_cdk import core
+from aws_cdk import (
+    aws_s3 as s3,
+)
 
 from data_platform import active_environment
 
