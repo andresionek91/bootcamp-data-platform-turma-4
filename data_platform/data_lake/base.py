@@ -29,6 +29,8 @@ class BaseDataLakeBucket(s3.Bucket):
             **kwargs
         )
 
+        self.set_default_lifecycle_rules()
+
     @property
     def default_block_public_access(self):
         return s3.BlockPublicAccess(
