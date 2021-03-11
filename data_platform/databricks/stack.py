@@ -3,7 +3,7 @@ from aws_cdk import (
     aws_iam as iam,
     aws_s3 as s3,
 )
-from data_plataform.common_stack import active_environment
+from data_platform import active_environment
 
 
 class DatabricksStack(core.Stack):
