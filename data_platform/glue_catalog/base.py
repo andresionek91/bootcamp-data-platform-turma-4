@@ -137,8 +137,8 @@ class BaseGlueCrawler(glue.CfnCrawler):
             s3_targets=[
                 glue.CfnCrawler.S3TargetProperty(
                     path=f"s3://{self.data_lake_bucket.bucket_name}/{self.table_name}"
-                )
-            ]
+                ),
+             ]
         )
 
 

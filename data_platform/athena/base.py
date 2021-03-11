@@ -3,7 +3,7 @@ from aws_cdk import (
     aws_s3 as s3,
     aws_athena as athena,
 )
-from bootcamp_data_platform_turma_3 import Environment
+from data_platform import Environment
 
 
 class BaseAthenaBucket(s3.Bucket):

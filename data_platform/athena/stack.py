@@ -1,7 +1,7 @@
 from aws_cdk import core
 
-from bootcamp_data_platform_turma_3.athena.base import BaseAthenaBucket, BaseAthenaWorkgroup
-from bootcamp_data_platform_turma_3 import active_environment
+from data_platform.athena.base import BaseAthenaBucket, BaseAthenaWorkgroup
+from data_platform import active_environment
 
 
 class AthenaStack(core.Stack):
